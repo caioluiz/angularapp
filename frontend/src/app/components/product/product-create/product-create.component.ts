@@ -10,9 +10,20 @@ import { ProductService } from './../product.service';
 })
 export class ProductCreateComponent implements OnInit {
 
+  product: Product ={
+    name:'',
+    value:0
+  }
   constructor(private router: Router, private productService: ProductService) { }
 
   ngOnInit(): void {
   }
 
+  createProduct(): void{
+
+  }
+  
+  cancelar(): void{
+
+  }
 }
