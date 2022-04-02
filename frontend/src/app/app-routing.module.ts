@@ -31,11 +31,11 @@ const routes: Routes = [
     component: ProductReadComponent,
   },
   {
-    path: "products/update:id",
+    path: "products/update/:id",
     component: ProductUpdateComponent,
   },
   {
-    path: "products/delete:id",
+    path: "products/delete/:id",
     component: ProductDeleteComponent,
   },
 ];
