@@ -13,7 +13,7 @@ export class HeaderService {
     routerUrl: ''
   })
 
-  constructor(headerData: HeaderData) { }
+  constructor() { }
 
   get headerData(): HeaderData{
     return this._headerData.value
